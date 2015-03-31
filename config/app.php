@@ -2,6 +2,7 @@
 
 return [
 
+
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode
@@ -144,6 +145,9 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        //Zizaco\Entrust\EntrustServiceProvider::class,
+        //Laracasts\Flash\FlashServiceProvider::class,
 
     ],
 
@@ -193,6 +197,9 @@ return [
         'URL'       => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View'      => Illuminate\Support\Facades\View::class,
+        
+        //'Flash' => 'Laracasts\Flash\Flash',
+        //'Entrust' => 'Zizaco\Entrust\EntrustFacade',
 
     ],
 
